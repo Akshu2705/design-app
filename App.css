@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+    @apply px-2;
+}
+
+.bg-primary{
+    background:-webkit-radial-gradient(rgb(68, 9, 75),rgb(33, 2, 37));
+}
+.bg-secondary{
+    background:rgba(244, 180, 251, 0.803);
+}
+.mobile-nav{
+    @apply fixed top-10 left-0 bg-gray-600 w-full h-1/5;
+
+}
+.mobile-nav li{
+    @apply w-full h-full text-center border-b-2;
+}
